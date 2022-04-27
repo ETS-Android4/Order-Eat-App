@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.resturantapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="27"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Store" >
+        <activity android:name="com.example.store.change_number" />
+        <activity android:name="com.example.store.number" />
+        <activity android:name="com.example.store.change_email" />
+        <activity android:name="com.example.store.E_mail" />
+        <activity android:name="com.example.store.change_password" />
+        <activity android:name="com.example.store.checkPassword" />
+        <activity android:name="com.example.store.change_name" />
+        <activity android:name="com.example.store.cart" />
+        <activity android:name="com.example.store.massege" />
+        <activity android:name="com.example.store.settings" />
+        <activity android:name="com.example.store.profile" />
+        <activity android:name="com.example.store.show_details" />
+        <activity android:name="com.example.store.realStart" >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.example.store.Sign_in_form"
+            android:label="Sign in" />
+        <activity
+            android:name="com.example.store.Start"
+            android:label="login" />
+        <activity
+            android:name="com.example.store.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
