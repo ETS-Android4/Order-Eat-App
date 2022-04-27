@@ -1,6 +1,7 @@
 # Order & Eat App 🍔
-The application allows you to order different types of food 🍔🍕🍞 with required quantities and providing an interface to register your data as a consumer in the restaurant that we had showed in a <b>list View</b> 
 <h2>Android Application (<b>Java</b>) ☕📱</h2>
+
+The application allows you to order different types of food 🍔🍕🍞 with required quantities and providing an interface to register your data as a consumer in the restaurant that we had showed in a <b>list View</b> 
 <p>
 The application is a very interactive app <br>
 The application has cart activity that shows to the user the food that he had orderd <br>
