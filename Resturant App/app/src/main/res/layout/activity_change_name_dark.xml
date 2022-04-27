@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".change_name">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/back_b_dark"
+            android:text="◄"
+            android:paddingHorizontal="15dp"
+            android:textSize="25sp"
+            android:id="@+id/back"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="50dp"
+            android:background="@drawable/back_b_dark"
+            android:textSize="25sp"
+            android:hint="Name"
+            android:id="@+id/nameTextField"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bt_dark"
+            android:layout_margin="10dp"
+            android:text="Change"
+            android:id="@+id/change_nameB"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+</RelativeLayout>

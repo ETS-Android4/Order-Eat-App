@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".change_number">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text="◄"
+            android:layout_margin="10dp"
+            android:id="@+id/back0_3"
+            android:background="@drawable/blue"
+            android:textColor="@color/white"
+            android:paddingHorizontal="10dp"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back0_3"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/blue"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:hint="new number here"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:id="@+id/numberTextField"
+            android:layout_marginHorizontal="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/blue"
+            android:textColor="@color/white"
+            android:text="Change"
+            android:id="@+id/change_numberB"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
