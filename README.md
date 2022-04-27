@@ -3,7 +3,7 @@ The application allows you to order different types of food with required quanti
 <p>
 The application is a very interactive app <br>
 The application has cart activity that shows to the user the food that he had orderd <br>
-All of the UI is my work<br>
+All of the UI is my design<br>
 The application is a multi theme also<br>
 The user can search in the services<br>
 The user can change his name , email , password and phone number<br>
