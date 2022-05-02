@@ -12,4 +12,3 @@ The user can change his name , email 📧, password 🔑 and phone number 📞<b
   </p>
   <p>Languages used : Java ☕, XML</p>
 <h2>You can also watch some pictures about this project via this <a href="https://drive.google.com/drive/folders/1Me9l1DfzzdhqN44gbrq5vHuFsyD7gV52">Link🔗</a></h2>
-<img src="C:\Users\ebied\Desktop\order&eat project posters/poster1.jpeg">
